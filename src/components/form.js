@@ -26,7 +26,7 @@ function Form() {
             date: dateValue
         }
         
-        fetch("https://alkemyproject.herokuapp.com//transactions",
+        fetch("https://alkemyproject.herokuapp.com/transactions",
         {
             headers: {
               'Accept': 'application/json',
