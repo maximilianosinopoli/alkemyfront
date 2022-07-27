@@ -438,5 +438,20 @@ input {
     position: fixed;
   }
 
+  .responsive {
+    display: none
+  }
+
+  .button-transaction {
+    text-decoration: none;
+    font-size: 15px;
+    color: inherit;
+    border: 1px solid black;
+    border-radius: 12%;
+    padding: 4px;
+    background-color: #3ddc97;
+    margin: 3px;
+  }
+
 }
 

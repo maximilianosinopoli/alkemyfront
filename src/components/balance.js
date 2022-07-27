@@ -57,7 +57,7 @@ async function editTransaction(item) {
                     <th>Amount</th>
                     <th>Type</th>
                     <th>Date</th>
-                    <th>Category</th>
+                    <th className='responsive'>Category</th>
                     <th>Action</th>
                 </tr>
                     {data.slice(0, 10).map((item) => {

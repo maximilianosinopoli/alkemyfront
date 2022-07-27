@@ -9,7 +9,7 @@ function Transaction({item, price, category, type, date, style, deleteTransactio
                     <td>{price}</td>
                     <td>{type}</td>
                     <td className='action'>{date}</td>
-                    <td>{category}</td>
+                    <td className='responsive'>{category}</td>
                     <td className='action'>
                         <button type="" onClick={deleteTransaction} className='button-transaction'>X</button>
                         <Link onClick={editTransaction} className="button-transaction" to="/update">Edit</Link>  
