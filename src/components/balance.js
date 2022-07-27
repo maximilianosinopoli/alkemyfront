@@ -34,7 +34,7 @@ let balanceStyle = (balance >= 0 ? 'green' : 'red')
 // Delete and Session for Update
 
 async function deleteTransaction(item) {
-    await fetch(`https://alkemyproject.herokuapp.com//transactions/${item.id}`, { method: 'DELETE' })
+    await fetch(`https://alkemyproject.herokuapp.com/transactions/${item.id}`, { method: 'DELETE' })
     fetchData()
 }
 
