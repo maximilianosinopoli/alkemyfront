@@ -476,6 +476,7 @@ input {
   justify-content: center;
   font-size: 15px;
   min-height: 20vh;
+  margin-bottom: 50px;
 }
 
 .about-header {
@@ -503,6 +504,7 @@ input {
 
 label {
   margin-bottom: 5px;
+  font-size: 13px;
 }
 
 .submit {
@@ -513,5 +515,26 @@ label {
   font-size: 18px;
   margin-top: 10px;
 }
+
+.form-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin-top: 30px;
+}
+
+.form-heading {
+  color: red;
+  margin-bottom: 45px;
+  text-decoration: underline;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
 }
 
