@@ -15,7 +15,7 @@ useEffect(() => {
   }, []);
 
 async function fetchData() {
-    const response = await fetch('http://localhost:3000/transactions')
+    const response = await fetch('https://alkemyproject.herokuapp.com/transactions')
     const resJson = await response.json()
     setData(resJson.payload)
 }
@@ -34,7 +34,7 @@ let balanceStyle = (balance >= 0 ? 'green' : 'red')
 // Delete and Session for Update
 
 async function deleteTransaction(item) {
-    await fetch(`http://localhost:3000/transactions/${item.id}`, { method: 'DELETE' })
+    await fetch(`https://alkemyproject.herokuapp.com//transactions/${item.id}`, { method: 'DELETE' })
     fetchData()
 }
 
