@@ -26,7 +26,7 @@ function Update() {
     }
 
     function updateValue() {
-        fetch(`https://alkemyproject.herokuapp.com//transactions/${obj.id}`, {
+        fetch(`https://alkemyproject.herokuapp.com/transactions/${obj.id}`, {
             method: 'PATCH',
             body: JSON.stringify(body),
             headers: {
