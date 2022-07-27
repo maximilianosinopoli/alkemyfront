@@ -408,5 +408,35 @@ input {
     width: 100%;
   }
 
+  .footer {
+    min-height: 3vh;
+    font-size: 10px;
+    width: 100%;
+    background-color: #3ddc97;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .developer {
+    text-decoration: underline;
+    font-size: 12px;
+  }
+
+  .header {
+    background-color: rgb(204, 204, 204);
+    min-height: 10vh;
+    background-color: #256eff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+  }
+
 }
 
