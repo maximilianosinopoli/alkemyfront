@@ -375,6 +375,10 @@ input {
     font-size: 20px;
     margin-top: 30px
   }
+
+  .about {
+    margin-top: 0px
+  }
   
   .alkemy {
     font-size: 25px;
@@ -410,7 +414,7 @@ input {
 
   .footer {
     min-height: 3vh;
-    font-size: 10px;
+    font-size: 14px;
     width: 100%;
     background-color: #3ddc97;
     display: flex;
@@ -423,16 +427,16 @@ input {
 
   .developer {
     text-decoration: underline;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .header {
     background-color: rgb(204, 204, 204);
-    min-height: 10vh;
+    /* min-height: 10vh; */
     background-color: #256eff;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: space-around;
     justify-content: center;
     overflow: hidden;
     position: fixed;
@@ -453,5 +457,61 @@ input {
     margin: 3px;
   }
 
+
+.nav-link {
+  text-decoration: none;
+  font-size: large;
+  color: inherit;
+  border: 1px solid black;
+  border-radius: 12%;
+  padding: 8px;
+  background-color: #3ddc97;
+  margin: 2px;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  min-height: 20vh;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.alkemy {
+  font-size: 17px;
+  color: blue;
+}
+
+.form-heading {
+  font-size: 25px;
+  color: red;
+  text-decoration: underline;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.submit {
+  height: 40px;
+  width: 120px;
+  background-color: #3ddc97;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
 }
 
